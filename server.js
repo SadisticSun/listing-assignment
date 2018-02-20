@@ -1,12 +1,9 @@
-const http = require('http')
-const path = require('path')
-const mimetypes = require('mime-types')
-const port = 8080
+const http = require('http');
+const path = require('path');
+const mimetypes = require('mime-types');
 
-onRequest = (req, res) => {
-    console.log(req.url);
-}
+const port = 8080;
 
-http.createServer(onRequest)
+onRequest = (req, res) => console.log(req.url, res);
 
-server.listen(port || 8080)
+http.createServer(onRequest).listen(port || 8080);

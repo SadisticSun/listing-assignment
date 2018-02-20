@@ -4,8 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "xo && node server.js",
+    "lint": "xo",
+    "fix": "xo --fix"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "homepage": "https://github.com/SadisticSun/listing-assignment#readme",
   "dependencies": {
     "mime-types": "^2.1.18"
+  },
+  "devDependencies": {
+    "xo": "^0.20.3"
   }
 }
