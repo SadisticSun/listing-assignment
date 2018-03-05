@@ -13,7 +13,7 @@ const routes = {
     '/img': '/img/img.jpg'
 }
 
-// Returns the mimetype of the given parameter or the image/jpg content-type. Query ba a path, file or extension
+// Returns the mimetype of the given parameter or the image/jpg content-type. Query can be a path, file or extension
 getContentType = (query) => query == '/img' ? 'image/jpg' : mimetype.lookup(query)
 
 // Handles requests
