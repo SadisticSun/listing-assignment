@@ -1,6 +1,12 @@
 # Listing Assignment
 This repo holds the Listing Assignment for the Backend Development course of CMD.
 
+## Install
+1. Make sure you have NodeJS installed
+2. Navigate to repository
+3. Run `npm i` or `npm install`
+4. App should be live at http://localhost:8080
+
 ## What it basically does
 This app is a very basic static file server that can only handle some predetermined routes:
 * `/` 
